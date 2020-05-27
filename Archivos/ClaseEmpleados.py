@@ -6,7 +6,7 @@ class Empleados ():
         
     def Agregar(self):
         archivoA=open("./archivos/Empleados.txt","a")
-        archivoA.write(idEmpleado+"|"+nombre+"|"+direccion +"|"+ "\n")
+        archivoA.write(self.__idEmpleado+"|"+self.__nombre+"|"+self.__direccion +"|"+ "\n")
         archivoA.close()
 
 menu1=1
